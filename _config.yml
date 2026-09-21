@@ -207,6 +207,7 @@ compress_html:
     envs: [development]
 
 exclude:
+  - index.markdown # Legacy homepage conflicts with Chirpy index.html
   - "*.gem"
   - "*.gemspec"
   - docs
